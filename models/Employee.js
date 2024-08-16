@@ -1,10 +1,17 @@
 const { DataTypes } = require("sequelize");
 const sequelize = require("../config/database");
 const moment = require("moment");
+const { EMPLOYEE } = require("../constants");
 
 const Employee = sequelize.define(
   "Employee",
   {
+    title: {
+      type: DataTypes.STRING,
+      allowNull: false,
+      field: "title",
+      defaultValue: EMPLOYEE,
+    },
     firstName: {
       type: DataTypes.STRING,
       allowNull: false,

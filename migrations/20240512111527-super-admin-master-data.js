@@ -10,6 +10,7 @@ var seed;
  */
 
 const moment = require("moment");
+const { ADMIN } = require("../constants");
 exports.setup = function (options, seedLink) {
   dbm = options.dbmigrate;
   type = dbm.dataType;
@@ -20,10 +21,11 @@ exports.up = function (db, callback) {
   db.insert(
     "admin_user",
     {
+      title: ADMIN,
       first_name: "Admin",
       last_name: "User",
       email: "admin@gmail.com",
-      password: "$2a$10$vCwyahw2KkJcNnVyx1G7ueicu6D3m1P9JgV2AbY9RVqYEmRuMTnPu",
+      password: "$2a$12$KXmjuVO91qJ2fR4FIFQYROeWj5Km3iWFm3ie3uGKzHzGTXsEnKqSy",
       phone: "9999999999",
       deleted: false,
       created: moment().format("YYYY-MM-DD HH:mm:ss"),

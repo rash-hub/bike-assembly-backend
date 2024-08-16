@@ -16,7 +16,7 @@ exports.setup = function (options, seedLink) {
 
 exports.up = function (db, callback) {
   db.createTable(
-    "shift",
+    "bike",
     {
       id: { type: "int", primaryKey: true, autoIncrement: true },
       name: "string",

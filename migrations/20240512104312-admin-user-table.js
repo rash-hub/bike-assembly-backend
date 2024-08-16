@@ -19,6 +19,7 @@ exports.up = function (db, callback) {
     "admin_user",
     {
       id: { type: "int", primaryKey: true, autoIncrement: true },
+      title: "string",
       first_name: "string",
       last_name: "string",
       email: "string",

@@ -1,8 +1,8 @@
 const { DataTypes } = require("sequelize");
 const sequelize = require("../config/database");
 
-const Shift = sequelize.define(
-  "Shift",
+const Bike = sequelize.define(
+  "Bike",
   {
     name: {
       type: DataTypes.STRING,
@@ -19,9 +19,9 @@ const Shift = sequelize.define(
   },
 
   {
-    tableName: "shift",
+    tableName: "bike",
     timestamps: false,
   }
 );
 
-module.exports = Shift;
+module.exports = Bike;

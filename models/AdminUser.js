@@ -1,10 +1,17 @@
 const { DataTypes } = require("sequelize");
 const sequelize = require("../config/database");
 const moment = require("moment");
+const { ADMIN } = require("../constants");
 
 const AdminUser = sequelize.define(
   "AdminUser",
   {
+    title: {
+      type: DataTypes.STRING,
+      allowNull: false,
+      field: "title",
+      defaultValue: ADMIN,
+    },
     firstName: {
       type: DataTypes.STRING,
       allowNull: false,

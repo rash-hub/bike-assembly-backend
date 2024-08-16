@@ -1,12 +1,12 @@
-const Shift = require("../../models/Shift");
+const Bike = require("../../models/Bike");
 const { Op } = require("sequelize");
 
 exports.create = async (req, res) => {
   try {
-    await Shift.create(req.body);
+    await Bike.create(req.body);
     res.status(200).json({
       success: true,
-      message: "Shift created successfully",
+      message: "Bike created successfully",
     });
   } catch (error) {
     res
@@ -18,13 +18,13 @@ exports.create = async (req, res) => {
 exports.fetch = async (req, res) => {
   try {
     if (!(req.query.page || req.query.limit || req.query.searchValue)) {
-      const shifts = await Shift.findAll({
+      const bikes = await Bike.findAll({
         where: { deleted: false },
       });
       return res.status(200).json({
         success: true,
-        message: "Shifts fetched successfully",
-        data: shifts,
+        message: "Bikes fetched successfully",
+        data: bikes,
       });
     } else {
       const page = req.query.page ? Number(req.query.page) : 1;
@@ -37,16 +37,16 @@ exports.fetch = async (req, res) => {
           [Op.or]: [{ name: { [Op.like]: `%${searchValue}%` } }],
         }),
       };
-      const { count, rows: shifts } = await Shift.findAndCountAll({
+      const { count, rows: bikes } = await Bike.findAndCountAll({
         where: whereClause,
         offset,
         limit,
       });
       return res.status(200).json({
         success: true,
-        message: "Shifts fetched successfully",
+        message: "Bikes fetched successfully",
         data: {
-          shifts,
+          bikes,
           pagination: {
             totalItems: count,
             currentPage: parseInt(page),
@@ -64,12 +64,12 @@ exports.fetch = async (req, res) => {
 
 exports.update = async (req, res) => {
   try {
-    await Shift.update(req.body, {
+    await Bike.update(req.body, {
       where: { id: req.params.id },
     });
     res.status(200).json({
       success: true,
-      message: "Shift updated successfully",
+      message: "Bike updated successfully",
     });
   } catch (error) {
     res
@@ -80,7 +80,7 @@ exports.update = async (req, res) => {
 
 exports.delete = async (req, res) => {
   try {
-    await Shift.update(
+    await Bike.update(
       { deleted: true },
       {
         where: { id: req.params.id },
@@ -88,7 +88,7 @@ exports.delete = async (req, res) => {
     );
     res.status(200).json({
       success: true,
-      message: "Shift deleted successfully",
+      message: "Bike deleted successfully",
     });
   } catch (error) {
     res
@@ -99,13 +99,13 @@ exports.delete = async (req, res) => {
 
 exports.fetchAll = async (req, res) => {
   try {
-    const shifts = await Shift.findAll({
+    const bikes = await Bike.findAll({
       where: { deleted: false },
     });
     res.status(200).json({
       success: true,
-      message: "Shifts fetched successfully",
-      data: shifts,
+      message: "Bikes fetched successfully",
+      data: bikes,
     });
   } catch (error) {
     res
