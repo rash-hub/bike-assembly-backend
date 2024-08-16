@@ -1,0 +1,9 @@
+{
+  "development": {
+    "driver": "mysql",
+    "user": "root",
+    "password": "Asahi@123",
+    "host": "localhost",
+    "database": "bike_assembly"
+  }
+}

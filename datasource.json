@@ -1,0 +1,1174 @@
+{
+  "countryDetails": [
+    {
+      "country_code": "AFG",
+      "country_name": "Afghanistan",
+      "currency_code": "AFN",
+      "timezone_offset": "+04:30"
+    },
+    {
+      "country_code": "ALB",
+      "country_name": "Albania",
+      "currency_code": "ALL",
+      "timezone_offset": "+01:00"
+    },
+    {
+      "country_code": "DZA",
+      "country_name": "Algeria",
+      "currency_code": "DZD",
+      "timezone_offset": "+01:00"
+    },
+    {
+      "country_code": "AND",
+      "country_name": "Andorra",
+      "currency_code": "EUR",
+      "timezone_offset": "+01:00"
+    },
+    {
+      "country_code": "AGO",
+      "country_name": "Angola",
+      "currency_code": "AON",
+      "timezone_offset": "+01:00"
+    },
+    {
+      "country_code": "ATG",
+      "country_name": "Antigua and Barbuda",
+      "currency_code": "XCD",
+      "timezone_offset": "-04:00"
+    },
+    {
+      "country_code": "ARG",
+      "country_name": "Argentina",
+      "currency_code": "ARS",
+      "timezone_offset": "-03:00"
+    },
+    {
+      "country_code": "ARM",
+      "country_name": "Armenia",
+      "currency_code": "AMD",
+      "timezone_offset": "+04:00"
+    },
+    {
+      "country_code": "AUS",
+      "country_name": "Australia",
+      "currency_code": "AUD",
+      "timezone_offset": "+10:00"
+    },
+    {
+      "country_code": "AUT",
+      "country_name": "Austria",
+      "currency_code": "EUR",
+      "timezone_offset": "+01:00"
+    },
+    {
+      "country_code": "AZE",
+      "country_name": "Azerbaijan",
+      "currency_code": "AZN",
+      "timezone_offset": "+04:00"
+    },
+    {
+      "country_code": "BHS",
+      "country_name": "Bahamas",
+      "currency_code": "BSD",
+      "timezone_offset": "-05:00"
+    },
+    {
+      "country_code": "BHR",
+      "country_name": "Bahrain",
+      "currency_code": "BHD",
+      "timezone_offset": "+03:00"
+    },
+    {
+      "country_code": "BGD",
+      "country_name": "Bangladesh",
+      "currency_code": "BDT",
+      "timezone_offset": "+06:00"
+    },
+    {
+      "country_code": "BRB",
+      "country_name": "Barbados",
+      "currency_code": "BBD",
+      "timezone_offset": "-04:00"
+    },
+    {
+      "country_code": "BLR",
+      "country_name": "Belarus",
+      "currency_code": "BYN",
+      "timezone_offset": "+03:00"
+    },
+    {
+      "country_code": "BEL",
+      "country_name": "Belgium",
+      "currency_code": "EUR",
+      "timezone_offset": "+01:00"
+    },
+    {
+      "country_code": "BLZ",
+      "country_name": "Belize",
+      "currency_code": "BZD",
+      "timezone_offset": "-06:00"
+    },
+    {
+      "country_code": "BEN",
+      "country_name": "Benin",
+      "currency_code": "XOF",
+      "timezone_offset": "+01:00"
+    },
+    {
+      "country_code": "BTN",
+      "country_name": "Bhutan",
+      "currency_code": "BTN",
+      "timezone_offset": "+06:00"
+    },
+    {
+      "country_code": "BOL",
+      "country_name": "Bolivia Plurinational States of",
+      "currency_code": "BOB",
+      "timezone_offset": "-04:00"
+    },
+    {
+      "country_code": "BIH",
+      "country_name": "Bosnia and Herzegovina",
+      "currency_code": "BAM",
+      "timezone_offset": "+01:00"
+    },
+    {
+      "country_code": "BWA",
+      "country_name": "Botswana",
+      "currency_code": "BWP",
+      "timezone_offset": "+02:00"
+    },
+    {
+      "country_code": "BRA",
+      "country_name": "Brazil",
+      "currency_code": "BRL",
+      "timezone_offset": "-03:00"
+    },
+    {
+      "country_code": "BRN",
+      "country_name": "Brunei Darussalam",
+      "currency_code": "BND",
+      "timezone_offset": "+08:00"
+    },
+    {
+      "country_code": "BGR",
+      "country_name": "Bulgaria",
+      "currency_code": "BGL",
+      "timezone_offset": "+02:00"
+    },
+    {
+      "country_code": "BFA",
+      "country_name": "Burkina Faso",
+      "currency_code": "XOF",
+      "timezone_offset": "00:00"
+    },
+    {
+      "country_code": "BDI",
+      "country_name": "Burundi",
+      "currency_code": "BIF",
+      "timezone_offset": "+02:00"
+    },
+    {
+      "country_code": "CPV",
+      "country_name": "Cabo Verde Republic of",
+      "currency_code": "CVE",
+      "timezone_offset": "-01:00"
+    },
+    {
+      "country_code": "KHM",
+      "country_name": "Cambodia",
+      "currency_code": "KHR",
+      "timezone_offset": "+07:00"
+    },
+    {
+      "country_code": "CMR",
+      "country_name": "Cameroon",
+      "currency_code": "XAF",
+      "timezone_offset": "+01:00"
+    },
+    {
+      "country_code": "CAN",
+      "country_name": "Canada",
+      "currency_code": "CAD",
+      "timezone_offset": "-05:00"
+    },
+    {
+      "country_code": "CAF",
+      "country_name": "Central African Republic",
+      "currency_code": "XAF",
+      "timezone_offset": "+01:00"
+    },
+    {
+      "country_code": "TCD",
+      "country_name": "Chad",
+      "currency_code": "XAF",
+      "timezone_offset": "+01:00"
+    },
+    {
+      "country_code": "CHL",
+      "country_name": "Chile",
+      "currency_code": "CLP",
+      "timezone_offset": "-04:00"
+    },
+    {
+      "country_code": "CHN",
+      "country_name": "China",
+      "currency_code": "CNY",
+      "timezone_offset": "+08:00"
+    },
+    {
+      "country_code": "COL",
+      "country_name": "Colombia",
+      "currency_code": "COP",
+      "timezone_offset": "-05:00"
+    },
+    {
+      "country_code": "COM",
+      "country_name": "Comoros",
+      "currency_code": "KMF",
+      "timezone_offset": "+03:00"
+    },
+    {
+      "country_code": "COG",
+      "country_name": "Congo",
+      "currency_code": "XAF",
+      "timezone_offset": "+01:00"
+    },
+    {
+      "country_code": "COK",
+      "country_name": "Cook Islands",
+      "currency_code": "NZD",
+      "timezone_offset": "-10:00"
+    },
+    {
+      "country_code": "CRI",
+      "country_name": "Costa Rica",
+      "currency_code": "CRC",
+      "timezone_offset": "-06:00"
+    },
+    {
+      "country_code": "CIV",
+      "country_name": "Côte d'Ivoire",
+      "currency_code": "XAF",
+      "timezone_offset": "00:00"
+    },
+    {
+      "country_code": "HRV",
+      "country_name": "Croatia",
+      "currency_code": "HRK",
+      "timezone_offset": "+01:00"
+    },
+    {
+      "country_code": "CUB",
+      "country_name": "Cuba",
+      "currency_code": "CUP",
+      "timezone_offset": "-05:00"
+    },
+    {
+      "country_code": "CYP",
+      "country_name": "Cyprus",
+      "currency_code": "EUR",
+      "timezone_offset": "+02:00"
+    },
+    {
+      "country_code": "CZE",
+      "country_name": "Czech Republic",
+      "currency_code": "EUR",
+      "timezone_offset": "+01:00"
+    },
+    {
+      "country_code": "PRK",
+      "country_name": "Democratic People's Republic of Korea",
+      "currency_code": "KPW",
+      "timezone_offset": "+09:00"
+    },
+    {
+      "country_code": "COD",
+      "country_name": "Democratic Republic of the Congo",
+      "currency_code": "CDF",
+      "timezone_offset": "+01:00"
+    },
+    {
+      "country_code": "DNK",
+      "country_name": "Denmark",
+      "currency_code": "DKK",
+      "timezone_offset": "+01:00"
+    },
+    {
+      "country_code": "DJI",
+      "country_name": "Djibouti",
+      "currency_code": "DJF",
+      "timezone_offset": "+03:00"
+    },
+    {
+      "country_code": "DMA",
+      "country_name": "Dominica",
+      "currency_code": "XCD",
+      "timezone_offset": "-04:00"
+    },
+    {
+      "country_code": "DOM",
+      "country_name": "Dominican Republic",
+      "currency_code": "DOP",
+      "timezone_offset": "-04:00"
+    },
+    {
+      "country_code": "ECU",
+      "country_name": "Ecuador",
+      "currency_code": "USD",
+      "timezone_offset": "-05:00"
+    },
+    {
+      "country_code": "EGY",
+      "country_name": "Egypt",
+      "currency_code": "EGP",
+      "timezone_offset": "+02:00"
+    },
+    {
+      "country_code": "SLV",
+      "country_name": "El Salvador",
+      "currency_code": "SVC",
+      "timezone_offset": "-06:00"
+    },
+    {
+      "country_code": "GNQ",
+      "country_name": "Equatorial Guinea",
+      "currency_code": "XAF",
+      "timezone_offset": "+01:00"
+    },
+    {
+      "country_code": "ERI",
+      "country_name": "Eritrea",
+      "currency_code": "ERN",
+      "timezone_offset": "+03:00"
+    },
+    {
+      "country_code": "EST",
+      "country_name": "Estonia",
+      "currency_code": "EEK",
+      "timezone_offset": "+02:00"
+    },
+    {
+      "country_code": "SWZ",
+      "country_name": "Eswatini",
+      "currency_code": "SZL",
+      "timezone_offset": "+02:00"
+    },
+    {
+      "country_code": "ETH",
+      "country_name": "Ethiopia",
+      "currency_code": "ETB",
+      "timezone_offset": "+03:00"
+    },
+    {
+      "country_code": "FJI",
+      "country_name": "Fiji",
+      "currency_code": "FJD",
+      "timezone_offset": "+12:00"
+    },
+    {
+      "country_code": "FIN",
+      "country_name": "Finland",
+      "currency_code": "EUR",
+      "timezone_offset": "+02:00"
+    },
+    {
+      "country_code": "FRA",
+      "country_name": "France",
+      "currency_code": "EUR",
+      "timezone_offset": "+01:00"
+    },
+    {
+      "country_code": "GAB",
+      "country_name": "Gabon",
+      "currency_code": "XAF",
+      "timezone_offset": "+01:00"
+    },
+    {
+      "country_code": "GMB",
+      "country_name": "Gambia",
+      "currency_code": "GMD",
+      "timezone_offset": "00:00"
+    },
+    {
+      "country_code": "GEO",
+      "country_name": "Georgia",
+      "currency_code": "GEL",
+      "timezone_offset": "+04:00"
+    },
+    {
+      "country_code": "DEU",
+      "country_name": "Germany",
+      "currency_code": "EUR",
+      "timezone_offset": "+01:00"
+    },
+    {
+      "country_code": "GHA",
+      "country_name": "Ghana",
+      "currency_code": "GHS",
+      "timezone_offset": "00:00"
+    },
+    {
+      "country_code": "GRC",
+      "country_name": "Greece",
+      "currency_code": "EUR",
+      "timezone_offset": "+02:00"
+    },
+    {
+      "country_code": "GRD",
+      "country_name": "Grenada",
+      "currency_code": "XCD",
+      "timezone_offset": "-04:00"
+    },
+    {
+      "country_code": "GTM",
+      "country_name": "Guatemala",
+      "currency_code": "GTQ",
+      "timezone_offset": "-06:00"
+    },
+    {
+      "country_code": "GIN",
+      "country_name": "Guinea",
+      "currency_code": "GNF",
+      "timezone_offset": "00:00"
+    },
+    {
+      "country_code": "GNB",
+      "country_name": "Guinea-Bissau",
+      "currency_code": "XOF",
+      "timezone_offset": "00:00"
+    },
+    {
+      "country_code": "GUY",
+      "country_name": "Guyana",
+      "currency_code": "GYD",
+      "timezone_offset": "-04:00"
+    },
+    {
+      "country_code": "HTI",
+      "country_name": "Haiti",
+      "currency_code": "HTG",
+      "timezone_offset": "-05:00"
+    },
+    {
+      "country_code": "HND",
+      "country_name": "Honduras",
+      "currency_code": "HNL",
+      "timezone_offset": "-06:00"
+    },
+    {
+      "country_code": "HUN",
+      "country_name": "Hungary",
+      "currency_code": "HUF",
+      "timezone_offset": "+01:00"
+    },
+    {
+      "country_code": "ISL",
+      "country_name": "Iceland",
+      "currency_code": "ISK",
+      "timezone_offset": "00:00"
+    },
+    {
+      "country_code": "IND",
+      "country_name": "India",
+      "currency_code": "INR",
+      "timezone_offset": "+05:30"
+    },
+    {
+      "country_code": "IDN",
+      "country_name": "Indonesia",
+      "currency_code": "IDR",
+      "timezone_offset": "+07:00"
+    },
+    {
+      "country_code": "IRN",
+      "country_name": "Iran",
+      "currency_code": "IRR",
+      "timezone_offset": "+03:30"
+    },
+    {
+      "country_code": "IRQ",
+      "country_name": "Iraq",
+      "currency_code": "IQD",
+      "timezone_offset": "+03:00"
+    },
+    {
+      "country_code": "IRL",
+      "country_name": "Ireland",
+      "currency_code": "EUR",
+      "timezone_offset": "00:00"
+    },
+    {
+      "country_code": "ISR",
+      "country_name": "Israel",
+      "currency_code": "ILS",
+      "timezone_offset": "+02:00"
+    },
+    {
+      "country_code": "ITA",
+      "country_name": "Italy",
+      "currency_code": "EUR",
+      "timezone_offset": "+01:00"
+    },
+    {
+      "country_code": "JAM",
+      "country_name": "Jamaica",
+      "currency_code": "JMD",
+      "timezone_offset": "-05:00"
+    },
+    {
+      "country_code": "JPN",
+      "country_name": "Japan",
+      "currency_code": "JPY",
+      "timezone_offset": "+09:00"
+    },
+    {
+      "country_code": "JOR",
+      "country_name": "Jordan",
+      "currency_code": "JOD",
+      "timezone_offset": "+02:00"
+    },
+    {
+      "country_code": "KAZ",
+      "country_name": "Kazakhstan",
+      "currency_code": "KZT",
+      "timezone_offset": "+05:00"
+    },
+    {
+      "country_code": "KEN",
+      "country_name": "Kenya",
+      "currency_code": "KES",
+      "timezone_offset": "+03:00"
+    },
+    {
+      "country_code": "KIR",
+      "country_name": "Kiribati",
+      "currency_code": "AUD",
+      "timezone_offset": "+12:00"
+    },
+    {
+      "country_code": "KWT",
+      "country_name": "Kuwait",
+      "currency_code": "KWD",
+      "timezone_offset": "+03:00"
+    },
+    {
+      "country_code": "KGZ",
+      "country_name": "Kyrgyzstan",
+      "currency_code": "KGS",
+      "timezone_offset": "+06:00"
+    },
+    {
+      "country_code": "LAO",
+      "country_name": "Lao People's Democratic Republic",
+      "currency_code": "LAK",
+      "timezone_offset": "+07:00"
+    },
+    {
+      "country_code": "LVA",
+      "country_name": "Latvia",
+      "currency_code": "LVL",
+      "timezone_offset": "+02:00"
+    },
+    {
+      "country_code": "LBN",
+      "country_name": "Lebanon",
+      "currency_code": "LBP",
+      "timezone_offset": "+02:00"
+    },
+    {
+      "country_code": "LSO",
+      "country_name": "Lesotho",
+      "currency_code": "LSL",
+      "timezone_offset": "+02:00"
+    },
+    {
+      "country_code": "LBR",
+      "country_name": "Liberia",
+      "currency_code": "LRD",
+      "timezone_offset": "00:00"
+    },
+    {
+      "country_code": "LBY",
+      "country_name": "Libya",
+      "currency_code": "LYD",
+      "timezone_offset": "+02:00"
+    },
+    {
+      "country_code": "LIE",
+      "country_name": "Liechtenstein",
+      "currency_code": "CHF",
+      "timezone_offset": "+01:00"
+    },
+    {
+      "country_code": "LTU",
+      "country_name": "Lithuania",
+      "currency_code": "LTL",
+      "timezone_offset": "+02:00"
+    },
+    {
+      "country_code": "LUX",
+      "country_name": "Luxembourg",
+      "currency_code": "EUR",
+      "timezone_offset": "+01:00"
+    },
+    {
+      "country_code": "MDG",
+      "country_name": "Madagascar",
+      "currency_code": "MGA",
+      "timezone_offset": "+03:00"
+    },
+    {
+      "country_code": "MWI",
+      "country_name": "Malawi",
+      "currency_code": "MWK",
+      "timezone_offset": "+02:00"
+    },
+    {
+      "country_code": "MYS",
+      "country_name": "Malaysia",
+      "currency_code": "MYR",
+      "timezone_offset": "+08:00"
+    },
+    {
+      "country_code": "MDV",
+      "country_name": "Maldives",
+      "currency_code": "MVR",
+      "timezone_offset": "+05:00"
+    },
+    {
+      "country_code": "MLI",
+      "country_name": "Mali",
+      "currency_code": "XOF",
+      "timezone_offset": "00:00"
+    },
+    {
+      "country_code": "MLT",
+      "country_name": "Malta",
+      "currency_code": "MTL",
+      "timezone_offset": "+01:00"
+    },
+    {
+      "country_code": "MHL",
+      "country_name": "Marshall Islands",
+      "currency_code": "USD",
+      "timezone_offset": "+12:00"
+    },
+    {
+      "country_code": "MRT",
+      "country_name": "Mauritania",
+      "currency_code": "MRO",
+      "timezone_offset": "00:00"
+    },
+    {
+      "country_code": "MUS",
+      "country_name": "Mauritius",
+      "currency_code": "MUR",
+      "timezone_offset": "+04:00"
+    },
+    {
+      "country_code": "MEX",
+      "country_name": "Mexico",
+      "currency_code": "MXN",
+      "timezone_offset": "-06:00"
+    },
+    {
+      "country_code": "FSM",
+      "country_name": "Micronesia (Federated States of)",
+      "currency_code": "USD",
+      "timezone_offset": "+10:00"
+    },
+    {
+      "country_code": "MDA",
+      "country_name": "Moldova",
+      "currency_code": "MDL",
+      "timezone_offset": "+02:00"
+    },
+    {
+      "country_code": "MCO",
+      "country_name": "Monaco",
+      "currency_code": "EUR",
+      "timezone_offset": "+01:00"
+    },
+    {
+      "country_code": "MNG",
+      "country_name": "Mongolia",
+      "currency_code": "MNT",
+      "timezone_offset": "+08:00"
+    },
+    {
+      "country_code": "MNE",
+      "country_name": "Montenegro",
+      "currency_code": "EUR",
+      "timezone_offset": "+01:00"
+    },
+    {
+      "country_code": "MAR",
+      "country_name": "Morocco",
+      "currency_code": "MAD",
+      "timezone_offset": "+01:00"
+    },
+    {
+      "country_code": "MOZ",
+      "country_name": "Mozambique",
+      "currency_code": "MZM",
+      "timezone_offset": "+02:00"
+    },
+    {
+      "country_code": "MMR",
+      "country_name": "Myanmar",
+      "currency_code": "MMK",
+      "timezone_offset": "+06:30"
+    },
+    {
+      "country_code": "NAM",
+      "country_name": "Namibia",
+      "currency_code": "NAD",
+      "timezone_offset": "+02:00"
+    },
+    {
+      "country_code": "NRU",
+      "country_name": "Nauru",
+      "currency_code": "AUD",
+      "timezone_offset": "+12:00"
+    },
+    {
+      "country_code": "NPL",
+      "country_name": "Nepal",
+      "currency_code": "NPR",
+      "timezone_offset": "+05:45"
+    },
+    {
+      "country_code": "NLD",
+      "country_name": "Netherlands",
+      "currency_code": "NLG",
+      "timezone_offset": "+01:00"
+    },
+    {
+      "country_code": "NZL",
+      "country_name": "New Zealand",
+      "currency_code": "NZD",
+      "timezone_offset": "+12:00"
+    },
+    {
+      "country_code": "NIC",
+      "country_name": "Nicaragua",
+      "currency_code": "NIO",
+      "timezone_offset": "-06:00"
+    },
+    {
+      "country_code": "NER",
+      "country_name": "Niger",
+      "currency_code": "XOF",
+      "timezone_offset": "+01:00"
+    },
+    {
+      "country_code": "NGA",
+      "country_name": "Nigeria",
+      "currency_code": "NGN",
+      "timezone_offset": "+01:00"
+    },
+    {
+      "country_code": "MKD",
+      "country_name": "North Macedonia",
+      "currency_code": "MKD",
+      "timezone_offset": "+01:00"
+    },
+    {
+      "country_code": "NOR",
+      "country_name": "Norway",
+      "currency_code": "NOK",
+      "timezone_offset": "+01:00"
+    },
+    {
+      "country_code": "OMN",
+      "country_name": "Oman",
+      "currency_code": "OMR",
+      "timezone_offset": "+04:00"
+    },
+    {
+      "country_code": "PAK",
+      "country_name": "Pakistan",
+      "currency_code": "PKR",
+      "timezone_offset": "+05:00"
+    },
+    {
+      "country_code": "PLW",
+      "country_name": "Palau",
+      "currency_code": "USD",
+      "timezone_offset": "+09:00"
+    },
+    {
+      "country_code": "PAN",
+      "country_name": "Panama",
+      "currency_code": "PAB",
+      "timezone_offset": "-05:00"
+    },
+    {
+      "country_code": "PNG",
+      "country_name": "Papua New Guinea",
+      "currency_code": "PGK",
+      "timezone_offset": "+10:00"
+    },
+    {
+      "country_code": "PRY",
+      "country_name": "Paraguay",
+      "currency_code": "PYG",
+      "timezone_offset": "-04:00"
+    },
+    {
+      "country_code": "PER",
+      "country_name": "Peru",
+      "currency_code": "PEN",
+      "timezone_offset": "-05:00"
+    },
+    {
+      "country_code": "PHL",
+      "country_name": "Philippines",
+      "currency_code": "PHP",
+      "timezone_offset": "+08:00"
+    },
+    {
+      "country_code": "POL",
+      "country_name": "Poland",
+      "currency_code": "PLN",
+      "timezone_offset": "+01:00"
+    },
+    {
+      "country_code": "PRT",
+      "country_name": "Portugal",
+      "currency_code": "PTE",
+      "timezone_offset": "00:00"
+    },
+    {
+      "country_code": "QAT",
+      "country_name": "Qatar",
+      "currency_code": "QAR",
+      "timezone_offset": "+03:00"
+    },
+    {
+      "country_code": "ROU",
+      "country_name": "Romania",
+      "currency_code": "ROL",
+      "timezone_offset": "+02:00"
+    },
+    {
+      "country_code": "RUS",
+      "country_name": "Russian Federation",
+      "currency_code": "RUB",
+      "timezone_offset": "+03:00"
+    },
+    {
+      "country_code": "RWA",
+      "country_name": "Rwanda",
+      "currency_code": "RWF",
+      "timezone_offset": "+02:00"
+    },
+    {
+      "country_code": "KNA",
+      "country_name": "Saint Kitts and Nevis",
+      "currency_code": "XCD",
+      "timezone_offset": "-04:00"
+    },
+    {
+      "country_code": "LCA",
+      "country_name": "Saint Lucia",
+      "currency_code": "XCD",
+      "timezone_offset": "-04:00"
+    },
+    {
+      "country_code": "VCT",
+      "country_name": "Saint Vincent and the Grenadines",
+      "currency_code": "XCD",
+      "timezone_offset": "-04:00"
+    },
+    {
+      "country_code": "WSM",
+      "country_name": "Samoa",
+      "currency_code": "WST",
+      "timezone_offset": "+13:00"
+    },
+    {
+      "country_code": "SMR",
+      "country_name": "San Marino",
+      "currency_code": "EUR",
+      "timezone_offset": "+01:00"
+    },
+    {
+      "country_code": "STP",
+      "country_name": "Sao Tome and Principe",
+      "currency_code": "STD",
+      "timezone_offset": "+00:00"
+    },
+    {
+      "country_code": "SAU",
+      "country_name": "Saudi Arabia",
+      "currency_code": "SAR",
+      "timezone_offset": "+03:00"
+    },
+    {
+      "country_code": "SEN",
+      "country_name": "Senegal",
+      "currency_code": "XOF",
+      "timezone_offset": "00:00"
+    },
+    {
+      "country_code": "SRB",
+      "country_name": "Serbia",
+      "currency_code": "CSD",
+      "timezone_offset": "+01:00"
+    },
+    {
+      "country_code": "SYC",
+      "country_name": "Seychelles",
+      "currency_code": "SCR",
+      "timezone_offset": "+04:00"
+    },
+    {
+      "country_code": "SLE",
+      "country_name": "Sierra Leone",
+      "currency_code": "SLL",
+      "timezone_offset": "00:00"
+    },
+    {
+      "country_code": "SGP",
+      "country_name": "Singapore",
+      "currency_code": "SGD",
+      "timezone_offset": "+08:00"
+    },
+    {
+      "country_code": "SVK",
+      "country_name": "Slovakia",
+      "currency_code": "SKK",
+      "timezone_offset": "+01:00"
+    },
+    {
+      "country_code": "SVN",
+      "country_name": "Slovenia",
+      "currency_code": "SIT",
+      "timezone_offset": "+01:00"
+    },
+    {
+      "country_code": "SLB",
+      "country_name": "Solomon Islands",
+      "currency_code": "SBD",
+      "timezone_offset": "+11:00"
+    },
+    {
+      "country_code": "SOM",
+      "country_name": "Somalia",
+      "currency_code": "SOS",
+      "timezone_offset": "+03:00"
+    },
+    {
+      "country_code": "ZAF",
+      "country_name": "South Africa",
+      "currency_code": "ZAR",
+      "timezone_offset": "+02:00"
+    },
+    {
+      "country_code": "SSD",
+      "country_name": "South Sudan",
+      "currency_code": "SSP",
+      "timezone_offset": "+03:00"
+    },
+    {
+      "country_code": "ESP",
+      "country_name": "Spain",
+      "currency_code": "ESP",
+      "timezone_offset": "+01:00"
+    },
+    {
+      "country_code": "LKA",
+      "country_name": "Sri Lanka",
+      "currency_code": "LKR",
+      "timezone_offset": "+05:30"
+    },
+    {
+      "country_code": "SDN",
+      "country_name": "Sudan",
+      "currency_code": "SDG",
+      "timezone_offset": "+03:00"
+    },
+    {
+      "country_code": "SUR",
+      "country_name": "Suriname",
+      "currency_code": "SRD",
+      "timezone_offset": "-03:00"
+    },
+    {
+      "country_code": "SWZ",
+      "country_name": "Swaziland",
+      "currency_code": "SZL",
+      "timezone_offset": "+02:00"
+    },
+    {
+      "country_code": "SWE",
+      "country_name": "Sweden",
+      "currency_code": "SEK",
+      "timezone_offset": "+01:00"
+    },
+    {
+      "country_code": "CHE",
+      "country_name": "Switzerland",
+      "currency_code": "CHF",
+      "timezone_offset": "+01:00"
+    },
+    {
+      "country_code": "SYR",
+      "country_name": "Syrian Arab Republic",
+      "currency_code": "SYP",
+      "timezone_offset": "+02:00"
+    },
+    {
+      "country_code": "TWN",
+      "country_name": "Taiwan",
+      "currency_code": "TWD",
+      "timezone_offset": "+08:00"
+    },
+    {
+      "country_code": "TJK",
+      "country_name": "Tajikistan",
+      "currency_code": "TJS",
+      "timezone_offset": "+05:00"
+    },
+    {
+      "country_code": "TZA",
+      "country_name": "Tanzania, United Republic of",
+      "currency_code": "TZS",
+      "timezone_offset": "+03:00"
+    },
+    {
+      "country_code": "THA",
+      "country_name": "Thailand",
+      "currency_code": "THB",
+      "timezone_offset": "+07:00"
+    },
+    {
+      "country_code": "TLS",
+      "country_name": "Timor-Leste",
+      "currency_code": "USD",
+      "timezone_offset": "+09:00"
+    },
+    {
+      "country_code": "TGO",
+      "country_name": "Togo",
+      "currency_code": "XOF",
+      "timezone_offset": "00:00"
+    },
+    {
+      "country_code": "TON",
+      "country_name": "Tonga",
+      "currency_code": "TOP",
+      "timezone_offset": "+13:00"
+    },
+    {
+      "country_code": "TTO",
+      "country_name": "Trinidad and Tobago",
+      "currency_code": "TTD",
+      "timezone_offset": "-04:00"
+    },
+    {
+      "country_code": "TUN",
+      "country_name": "Tunisia",
+      "currency_code": "TND",
+      "timezone_offset": "+01:00"
+    },
+    {
+      "country_code": "TUR",
+      "country_name": "Turkey",
+      "currency_code": "TRL",
+      "timezone_offset": "+02:00"
+    },
+    {
+      "country_code": "TKM",
+      "country_name": "Turkmenistan",
+      "currency_code": "TMT",
+      "timezone_offset": "+05:00"
+    },
+    {
+      "country_code": "TUV",
+      "country_name": "Tuvalu",
+      "currency_code": "AUD",
+      "timezone_offset": "+12:00"
+    },
+    {
+      "country_code": "UGA",
+      "country_name": "Uganda",
+      "currency_code": "UGX",
+      "timezone_offset": "+03:00"
+    },
+    {
+      "country_code": "UKR",
+      "country_name": "Ukraine",
+      "currency_code": "UAH",
+      "timezone_offset": "+02:00"
+    },
+    {
+      "country_code": "ARE",
+      "country_name": "United Arab Emirates",
+      "currency_code": "AED",
+      "timezone_offset": "+04:00"
+    },
+    {
+      "country_code": "GBR",
+      "country_name": "United Kingdom",
+      "currency_code": "GBP",
+      "timezone_offset": "00:00"
+    },
+    {
+      "country_code": "USA",
+      "country_name": "United States of America",
+      "currency_code": "USD",
+      "timezone_offset": "-05:00"
+    },
+    {
+      "country_code": "URY",
+      "country_name": "Uruguay",
+      "currency_code": "UYU",
+      "timezone_offset": "-03:00"
+    },
+    {
+      "country_code": "UZB",
+      "country_name": "Uzbekistan",
+      "currency_code": "UZS",
+      "timezone_offset": "+05:00"
+    },
+    {
+      "country_code": "VUT",
+      "country_name": "Vanuatu",
+      "currency_code": "VUV",
+      "timezone_offset": "+11:00"
+    },
+    {
+      "country_code": "VEN",
+      "country_name": "Venezuela",
+      "currency_code": "VEB",
+      "timezone_offset": "-04:00"
+    },
+    {
+      "country_code": "VNM",
+      "country_name": "Vietnam",
+      "currency_code": "VND",
+      "timezone_offset": "+07:00"
+    },
+    {
+      "country_code": "YEM",
+      "country_name": "Yemen",
+      "currency_code": "YER",
+      "timezone_offset": "+03:00"
+    },
+    {
+      "country_code": "ZMB",
+      "country_name": "Zambia",
+      "currency_code": "ZMK",
+      "timezone_offset": "+02:00"
+    },
+    {
+      "country_code": "ZWE",
+      "country_name": "Zimbabwe",
+      "currency_code": "ZWD",
+      "timezone_offset": "+02:00"
+    }
+  ]
+}
