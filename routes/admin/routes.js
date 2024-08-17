@@ -3,6 +3,7 @@ const router = express.Router();
 const adminAuthController = require("../../controllers/admin/auth");
 const adminUserController = require("../../controllers/admin/admin-user");
 const adminBikeController = require("../../controllers/admin/bike");
+const adminBikeAssemblyController = require("../../controllers/admin/bike-assembly");
 const adminEmployeeController = require("../../controllers/admin/employee");
 const authMiddleware = require("../../middleware/auth");
 
@@ -34,6 +35,31 @@ router.put(
   "/admin/employee/:id",
   authMiddleware,
   adminEmployeeController.update
+);
+router.get(
+  "/admin/bike-assemblies",
+  authMiddleware,
+  adminBikeAssemblyController.fetch
+);
+router.post(
+  "/admin/bike-assembly",
+  authMiddleware,
+  adminBikeAssemblyController.create
+);
+router.put(
+  "/admin/bike-assembly/:id",
+  authMiddleware,
+  adminBikeAssemblyController.update
+);
+router.delete(
+  "/admin/bike-assembly/:id",
+  authMiddleware,
+  adminBikeAssemblyController.delete
+);
+router.get(
+  "/admin/bike-assemblies/all",
+  authMiddleware,
+  adminBikeAssemblyController.fetchAll
 );
 
 module.exports = router;
