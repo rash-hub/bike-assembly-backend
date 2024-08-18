@@ -1,4 +1,5 @@
 const Bike = require("../../models/Bike");
+const BikeAssembly = require("../../models/BikeAssembly");
 const { Op } = require("sequelize");
 
 exports.create = async (req, res) => {
@@ -99,8 +100,15 @@ exports.delete = async (req, res) => {
 
 exports.fetchAll = async (req, res) => {
   try {
+    const bikeAssembly = await BikeAssembly.findAll();
+    const assembledBikeIds = bikeAssembly.map((bike) => bike.bikeId);
     const bikes = await Bike.findAll({
-      where: { deleted: false },
+      where: {
+        deleted: false,
+        id: {
+          [Op.notIn]: assembledBikeIds,
+        },
+      },
     });
     res.status(200).json({
       success: true,

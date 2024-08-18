@@ -2,6 +2,7 @@ const { Op } = require("sequelize");
 const BikeAssembly = require("../../models/BikeAssembly");
 const Bike = require("../../models/Bike");
 const Employee = require("../../models/Employee");
+const moment = require("moment");
 
 exports.create = async (req, res) => {
   try {
@@ -38,6 +39,10 @@ exports.fetch = async (req, res) => {
             }),
           }
         : {
+            created: {
+              [Op.gte]: moment(req.query.from).startOf("day").toDate(),
+              [Op.lte]: moment(req.query.to).endOf("day").toDate(),
+            },
             ...(searchValue && {
               [Op.or]: [
                 { "$bike.name$": { [Op.like]: `%${searchValue}%` } },
