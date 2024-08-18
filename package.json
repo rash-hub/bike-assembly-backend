@@ -1,7 +1,7 @@
 {
-  "name": "hafa-works-backend",
+  "name": "bike-assembly-backend",
   "version": "1.0.0",
-  "description": "Hafa Works Backend",
+  "description": "Bike Assembly Backend",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
