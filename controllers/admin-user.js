@@ -1,4 +1,4 @@
-const Employee = require("../../models/Employee");
+const AdminUser = require("../models/AdminUser");
 const { Op } = require("sequelize");
 const bcrypt = require("bcrypt");
 
@@ -29,16 +29,16 @@ exports.fetch = async (req, res) => {
         ],
       }),
     };
-    const { count, rows: employees } = await Employee.findAndCountAll({
+    const { count, rows: adminUsers } = await AdminUser.findAndCountAll({
       where: whereClause,
       offset,
       limit,
     });
     return res.status(200).json({
       success: true,
-      message: "Employees fetched successfully",
+      message: "Admin users fetched successfully",
       data: {
-        employees,
+        adminUsers,
         pagination: {
           totalItems: count,
           currentPage: parseInt(page),
@@ -55,13 +55,13 @@ exports.fetch = async (req, res) => {
 
 exports.view = async (req, res) => {
   try {
-    const employee = await Employee.findOne({
+    const adminUser = await AdminUser.findOne({
       where: { id: req.params.id, deleted: false },
     });
     res.status(200).json({
       success: true,
-      message: "Employee fetched successfully",
-      data: employee,
+      message: "Admin user fetched successfully",
+      data: adminUser,
     });
   } catch (error) {
     res
@@ -72,7 +72,7 @@ exports.view = async (req, res) => {
 
 exports.delete = async (req, res) => {
   try {
-    await Employee.update(
+    await AdminUser.update(
       { deleted: true },
       {
         where: { id: req.params.id },
@@ -80,7 +80,7 @@ exports.delete = async (req, res) => {
     );
     res.status(200).json({
       success: true,
-      message: "Employee deleted successfully",
+      message: "Admin user deleted successfully",
     });
   } catch (error) {
     res
@@ -91,10 +91,10 @@ exports.delete = async (req, res) => {
 
 exports.create = async (req, res) => {
   try {
-    const employee = await Employee.findOne({
+    const adminUser = await AdminUser.findOne({
       where: { email: req.body.email, deleted: false },
     });
-    if (employee) {
+    if (adminUser) {
       return res.status(400).json({
         success: false,
         message: "Email already exist",
@@ -102,10 +102,10 @@ exports.create = async (req, res) => {
     }
     const salt = await bcrypt.genSalt(10);
     req.body.password = await bcrypt.hash(req.body.password, salt);
-    await Employee.create(req.body);
+    await AdminUser.create(req.body);
     res.status(200).json({
       success: true,
-      message: "Employee created successfully",
+      message: "Admin user created successfully",
     });
   } catch (error) {
     res
@@ -116,25 +116,25 @@ exports.create = async (req, res) => {
 
 exports.update = async (req, res) => {
   try {
-    const employee = await Employee.findOne({
+    const adminUser = await AdminUser.findOne({
       where: {
         email: req.body.email,
         id: { [Op.ne]: req.params.id },
         deleted: false,
       },
     });
-    if (employee) {
+    if (adminUser) {
       return res.status(400).json({
         success: false,
         message: "Email already exist",
       });
     }
-    await Employee.update(req.body, {
+    await AdminUser.update(req.body, {
       where: { id: req.params.id },
     });
     res.status(200).json({
       success: true,
-      message: "Employee updated successfully",
+      message: "Admin user updated successfully",
     });
   } catch (error) {
     res

@@ -1,9 +1,9 @@
-const { SOMETHING_WENT_WRONG } = require("../../constants");
-const { getToken } = require("../../helpers/get-jwt-token");
-const { verifyJwtToken } = require("../../helpers/verify-jwt-token");
-const AdminUser = require("../../models/AdminUser");
+const { SOMETHING_WENT_WRONG } = require("../constants");
+const { getToken } = require("../helpers/get-jwt-token");
+const { verifyJwtToken } = require("../helpers/verify-jwt-token");
+const AdminUser = require("../models/AdminUser");
 const bcrypt = require("bcrypt");
-const Employee = require("../../models/Employee");
+const Employee = require("../models/Employee");
 
 exports.login = async (req, res) => {
   try {

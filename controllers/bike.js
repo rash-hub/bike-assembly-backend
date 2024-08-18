@@ -1,5 +1,5 @@
-const Bike = require("../../models/Bike");
-const BikeAssembly = require("../../models/BikeAssembly");
+const Bike = require("../models/Bike");
+const BikeAssembly = require("../models/BikeAssembly");
 const { Op } = require("sequelize");
 
 exports.create = async (req, res) => {

@@ -1,7 +1,7 @@
 const express = require("express");
 const bodyParser = require("body-parser");
 const cors = require("cors");
-const adminRoutes = require("./routes/admin/routes");
+const routes = require("./routes/index");
 const config = require(`./config/env/${process.env.NODE_ENV.trim()}`);
 
 const app = express();
@@ -11,7 +11,7 @@ require("./migrate");
 
 app.use(cors());
 app.use(bodyParser.json());
-app.use("/api/v1", adminRoutes);
+app.use("/api/v1", routes);
 app.listen(PORT, (error) => {
   if (!error)
     console.log(
